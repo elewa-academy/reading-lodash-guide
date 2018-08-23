@@ -71,7 +71,7 @@ var createPadding = require('./node_modules/lodash/_createPadding'),
     toString = require('./node_modules/lodash/toString');
 
 
-/**[...]
+/**[...]**/
 
 function padStart(string, length, char) {
 	let safe_args = cast_args(string, length);

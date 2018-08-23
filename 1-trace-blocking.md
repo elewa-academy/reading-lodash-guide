@@ -22,7 +22,7 @@ var createPadding = require('./node_modules/lodash/_createPadding'),
     toInteger = require('./node_modules/lodash/toInteger'),
     toString = require('./node_modules/lodash/toString');
 
-/**[...]
+/**[...]**/
 
 function padStart(string, length, chars) {
   string = toString(string);
