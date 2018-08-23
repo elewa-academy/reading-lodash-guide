@@ -57,27 +57,22 @@ module.exports = padStart;
 
 function cast_args(string, number) {[...]
 };
-let cast_args_test_cases = [
-	{input: [0, "e"], expected: {string: "0", number: NaN}, message: "[0, 'e'] -> {string: '0', number: NaN}"}
+let cast_args_test_cases = [[...]
 ];
 
 function find_length(string, desire_len) {[...]
 };
-let find_length_test_cases = [
-	{input: ["ee", 3], expected: 2, message: "['ee', 3] -> 2"},
-	{input: ["ee", NaN], expected: 0, message: "['ee', NaN] -> 0"}
+let find_length_test_cases = [[...]
 ];
 
 function pad_check(real_len, desire_len) {[...]
 };
-let pad_check_test_cases = [
-	{input: [0, 4], expected: 4, message: "[0, 4] -> 4"}
+let pad_check_test_cases = [[...]
 ];
 
 function pad(pad_length, string, chars) {[...]
 };
-let pad_test_cases = [
-	{input: [4, "rolf", "+="], expected: "+=+=rolf", message: "[4, 'rolf', '+='] -> '+=+=rolf'"}
+let pad_test_cases = [[...]
 ];
 ```
 
