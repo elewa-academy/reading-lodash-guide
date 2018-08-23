@@ -155,7 +155,6 @@ function find_length(string, desire_len) {[...]
 let find_length_test_cases = [[...]
 ];
 
-// after type check, can trust types to be correct
 function pad_check(real_len, desire_len) {[...]
 };
 let pad_check_test_cases = [[...]
